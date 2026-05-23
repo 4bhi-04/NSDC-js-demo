@@ -1,0 +1,49 @@
+Built-in Middleware(Express)
+
+JSON parser
+
+app.use
+
+
+
+Third-Party Middleware(External Packages)
+
+These are installed using nppm
+
+Eg:
+npm install morgan cors
+const morgan =requie ('morgan');
+const cors =requie('cors');
+
+app.use(morgan('dev'));
+app.use(cors());
+
+
+
+Use case:logging security,cookies,sessions,CORS
+
+
+Postman is an API testing and development tool used by developers to send HTTP requests to a server and see the response without building a frontend.
+It helps in testing backend APIs like GET,POST,PUT,DELETE easily.
+
+For example:
+If you create an API in Node.js/Express , you can use Postman to check whether it is working correctly by sending requests and viewing responses.
+
+Advantages of Postman
+
+Easy API testing
+User-friendly interface
+Saves time 
+Supports authentication
+Environment variables
+Automation testing
+
+environment variables are external values stored outside your code and used to configure your application (like port number ,database URL ,API KEYS PASSWORDS ).
+
+
+Example 
+
+Instead of writing inside code:
+
+const port=3000;
+const bdURL=

@@ -1,0 +1,46 @@
+JavaScript is a high level interpreted programming language used to create interactive web applications on both client-side and server-side.
+
+What JavaScript can do?
+
+-> Handle button clicks
+->Validate forms
+->Update content without reloading page
+->create animations
+->Build server and APIs (using Node.js)
+
+Where JavaScript runs?
+
+->Browser (client-side)
+	->Using JavaScript engines like Chrome V8
+
+
+
+JavaScript Engine
+
+-> A JavaScript engine executes JS code
+-> Popular JS engines:
+	-> Chrome -> V8 Engine (most popular)
+	->
+
+
+
+
+Node.js
+
+->Node.js is a runtime environment 
+->It allows JavaScript to run outside the browser
+->Built on Chrome V8 engine
+
+Var
+
+var is used to declare a variable in JavaScript.
+It can be re-declared and updated.
+eg:
+	var num = 10;
+
+Let 
+
+let is used to declare a block-scoped variable.
+It cab be updated but cannot be re-declared in the same scope.
+
+let num = 10;

@@ -1,0 +1,75 @@
+const express=require("express")
+const app=express()
+const ejs=require('ejs')
+app.set("view engine", "ejs");
+
+app.get('/', (req, res) => {
+    res.render("home")
+});
+
+app.listen(3000)
+
+Mongo DB
+In one table we can add multiple data
+Database---->Database
+Table---->Collection
+Rows--->Document
+	
+MongoDb is a NoSQL database used to store, manage, and retrieve data in a flexible ,JSON like format
+
+
+	How MongoDB stores data
+
+	Database--->Collection--->Document
+
+Document
+A document is a single record
+Stored in BSON(Binary JSON)
+Looks like a JavaScript object
+
+	Example
+	{
+		"name":"Abinav",
+		"email":"abn123@gmail.com",
+		"age":"20"
+	}
+
+	Why MongoDB is called NoSQL
+No fixed table structure
+No rows & columns
+Schema is flexible
+Data can change over time easily
+	
+	That's why is called NoSQL
+
+
+
+Advantages of MongoDB
+Flexible Schema: No need to define a schema before inserting data
+High Performance: Optimized for read and write options.
+Scalability: Horizontal scaling with sharding
+Document Oriented: Stores document is rich JSON like documents
+Aggregation frame work: Powerful Querying and data transformation
+Geospatial Support: Built in support for location based data
+Rich Querying language: Supports and hoc quires, indexing, and rest time analytics.
+
+
+
+CRUD
+
+Mongoose is an ODM library used to interact with MongoDB in a structured way.
+CRUD operations in Mongoose allow us to Create,Read,Update and Delete documents in a MongoDb collection
+
+Create(Insert Data)
+
+Create means adding a new document to a MongoDb collection using a Mongoose Model.
+
+Read (Fetch Data)
+
+Read means retrieving existing documents from the database without changing them.
+
+Common mongoose methods
+
+find()
+findOne()
+findById()

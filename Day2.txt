@@ -1,0 +1,87 @@
+Git and Git hub
+
+Version control
+
+->Version control is a system that records changes to files over time , so you can recall specific versions later.
+->It helps track code changes , collaborate with teams , and revert to previous versions if needed.
+
+
+What is Git?
+
+Git = Distributed Version Control System (DVCS)
+Git is version control system used to keep Track of changes made in your code
+Created by Linus Torvalds in 2005 for Linux Kernal
+Features
+	->Distributed 
+	->Fast and lightweight 
+	->Support branching and merging 
+	->Data integrity via SHA-1 hashing
+Git	Github
+Installed locally	
+Maintained by the Linux foundation	
+Focused on version control and code sharing	Focused on centralized code hosting
+	Administered through web
+	Desktop interface named GitHub Desktop
+	Built in user management 
+	Active marketplace for tool integration
+	Competes with Atlassian bucketbit and GitLab
+	
+
+Git vs GitHub
+
+
+
+
+A framework in web development is a structured foundation of pre-written code , tools , libraries, and best practices that helps developers build and maintain web applications more efficiently
+
+Libraries
+ collection ot pre written code
+you use it to make development easier
+example in mern
+	react(ui library)
+	axios(API calls)
+	mongoose(MongoDB handling)
+
+
+
+
+
+if node modules and package-
+
+
+HTTP Module
+
+->http is a core module in Node.js
+->Used to create a server-side application
+->Handles:
+	->Requests 
+
+
+Example use:
+	->Creating a basic web server
+	->Handling HTTP requests without any framework
+
+
+Full Stack Development 
+
+	-> Using JavaScript for
+		->Fornt -> React.js
+		->Backend-> Node.js + Express.js
+		->Database -> MongoDB
+
+
+
+MERN
+	M->MongoDB
+	E->Express js
+	R->React js
+	N->Node js
+
+Used for full stack web applications
+
+
+NPM(Node Package Manager)
+
+->NPM manages packages and libraries
+->Comes with Nodejs
+Features:
